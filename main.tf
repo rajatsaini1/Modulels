@@ -2,7 +2,7 @@ terraform {
     cloud {
     organization = "rajats"
     workspaces {
-      name = "Modules"
+      name = "Modulels"
     }
   }
   required_providers {
