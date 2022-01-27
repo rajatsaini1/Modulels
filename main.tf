@@ -3,7 +3,7 @@ terraform {
     organization = "rajats"
   
     workspaces {
-      name = "Modules"
+      name = "Modulels"
     }
     
   }
