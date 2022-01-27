@@ -22,5 +22,5 @@ provider "aws" {
 }
 
 module "ec2module" {
- source = "ec2.tf" 
+ source = "ec2" 
 }
