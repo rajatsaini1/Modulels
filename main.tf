@@ -17,6 +17,9 @@ provider "aws" {
 }
 
 module "ec2module" {
- source = ".//EC2" 
+ source = ".//../../EC2" 
 }
-        
+
+module "mys3" {
+  source = ".//../../Modules/s3" 
+}
