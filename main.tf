@@ -15,6 +15,10 @@ required_providers {
     }
   }
 
+provider "aws" {
+  region = "ap-south-1"
+}
+
 module "ec2module" {
  source = ".//Modules/EC2" 
 }
