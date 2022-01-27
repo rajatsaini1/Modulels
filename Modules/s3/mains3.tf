@@ -12,7 +12,7 @@ resource "aws_s3_bucket_object" "index" {
   bucket = aws_s3_bucket.prod_website.id
 
   key    = "index.html"
-  source = "index.html"
+  source = ".//Modules/s3/index.html"
   content_type = "text/html"
 
 } 
