@@ -10,5 +10,5 @@ terraform {
 
 
 module "ec2module" {
- source = "../../Modules/EC2" 
+ source = "Modules/EC2" 
 }
