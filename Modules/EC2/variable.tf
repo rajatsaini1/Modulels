@@ -1,3 +1,3 @@
 variable "instance_type" {
-  default = "t2.mirco"
+  default = "t2.micro"
 }
