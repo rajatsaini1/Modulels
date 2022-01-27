@@ -1,11 +1,9 @@
 terraform {
-  cloud {
+    cloud {
     organization = "rajats"
-  
     workspaces {
-      name = "Modulels"
+      name = "Modules"
     }
-    
   }
   required_providers {
     aws = {
@@ -14,9 +12,6 @@ terraform {
     }
   }
 }
-
-
-
 provider "aws" {
   region = "ap-south-1"
 }
