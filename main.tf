@@ -1,4 +1,4 @@
-/*terraform {
+terraform {
   cloud {
     organization = "rajats"
 
@@ -7,7 +7,7 @@
     }
   }
 }
-*/
+
 
 module "ec2module" {
  source = "../../Modules/EC2" 
