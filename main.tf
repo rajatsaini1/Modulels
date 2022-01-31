@@ -18,6 +18,7 @@ provider "aws" {
 
 module "ec2module" {
  source = ".//Modules/EC2" 
+  instance_type = var.instance_type
 }
 /*
 module "mys3" {
