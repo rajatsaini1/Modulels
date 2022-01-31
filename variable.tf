@@ -6,3 +6,7 @@ variable "instance_type"{
 variable "name" {
  type = string   
 }
+
+variable "acl" {
+ type = string   
+}    
