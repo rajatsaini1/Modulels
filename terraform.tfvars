@@ -1,3 +1,5 @@
 instance_type = "t2.nano"
 name          = ""
 acl           = ""
+mfa_delete    = ""
+versioning    = ""
