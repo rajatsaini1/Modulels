@@ -1,5 +1,5 @@
 resource "aws_s3_bucket" "prod_website" {  
-    acl    = "public-read"     
+    acl    = var.acl     
     website {    
     index_document = "index.html"    
     error_document = "error.html"   
