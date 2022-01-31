@@ -24,4 +24,5 @@ module "ec2module" {
 module "mys3" {
   source = ".//Modules/s3" 
     name = var.name
+    acl  = var.acl
 } 
