@@ -23,5 +23,5 @@ module "ec2module" {
 */
 module "mys3" {
   source = ".//Modules/s3" 
-    Name = var.name
+    name = var.name
 } 
