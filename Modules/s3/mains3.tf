@@ -5,6 +5,9 @@ resource "aws_s3_bucket" "prod_website" {
     error_document = "error.html"   
  
   }
+    tags = {
+    Name        = var.name
+  }
 }
 
 resource "aws_s3_bucket_object" "index" {
