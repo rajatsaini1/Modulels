@@ -12,9 +12,9 @@ variable "acl" {
 }    
 
 variable "versioning" {
- type  = boolean
+ type  = bool
 }
 
 variable "mfa_delete" {
- type  = boolean
+ type  = bool
 }
