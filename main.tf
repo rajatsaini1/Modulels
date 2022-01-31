@@ -23,7 +23,5 @@ module "ec2module" {
 */
 module "mys3" {
   source = ".//Modules/s3" 
-  tags = {
     Name = var.name
-  }
 } 
