@@ -16,12 +16,12 @@ provider "aws" {
   region = "ap-south-1"
 }
 
-/*module "ec2module" {
+module "ec2module" {
  source = ".//Modules/EC2" 
 }
-*/
+/*
 module "mys3" {
   source = ".//Modules/s3" 
 
 } 
-
+*/
