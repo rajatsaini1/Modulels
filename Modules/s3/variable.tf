@@ -13,3 +13,7 @@ variable "versioning" {
 variable "mfa_delete" {
     type = bool
 }
+
+variable "bucket" {
+    type = string
+}
