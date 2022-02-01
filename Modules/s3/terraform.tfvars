@@ -1,4 +1,5 @@
-name = ""
-acl  = ""
+name       = ""
+acl        = ""
 versioning = ""
 mfa_delete = ""
+bucket     = ""
