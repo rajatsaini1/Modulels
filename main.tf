@@ -25,6 +25,10 @@ module "mys3" {
     source     = ".//Modules/s3" 
     name       = var.name
     acl        = var.acl
-    versioning = var.versioning
-    mfa_delete = var.mfa_delete
+    versioning {
+    enabled = var.versioning
+  }
+    mfa_delete {
+    enabled = var.mfa_delete
+  }
 } 
