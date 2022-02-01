@@ -26,9 +26,9 @@ module "mys3" {
     name       = var.name
     acl        = var.acl
     versioning {
-    enabled = var.versioning
+    enabled = true
   }
     mfa_delete {
-    enabled = var.mfa_delete
+    enabled = true
   }
 } 
