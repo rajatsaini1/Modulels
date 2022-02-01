@@ -22,13 +22,9 @@ module "ec2module" {
 }
 */
 module "mys3" {
+    bucket     = var.bucket
     source     = ".//Modules/s3" 
     name       = var.name
     acl        = var.acl
-    versioning {
-    enabled = true
-  }
-    mfa_delete {
-    enabled = true
-  }
+    
 } 
