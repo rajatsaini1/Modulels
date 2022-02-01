@@ -1,7 +1,11 @@
 resource "aws_s3_bucket" "prod_website" {  
     acl    = var.acl   
-    versioning = var.versioning
-    mfa_delete = var.mfa_delete
+    versioning {
+    enabled = var.versioning
+  }
+    mfa_delete {
+    enabled = var.mfa_delete
+  }
     website {    
     index_document = "index.html"    
     error_document = "error.html"   
