@@ -1,19 +1,20 @@
 terraform {
-    cloud {
-    organization = "rajats"
-    workspaces {
-      name = "Modulels"
-    }
-  }
   required_providers {
     aws = {
       source = "hashicorp/aws"
-      version = "3.73.0"
+    }
+    random = {
+      source = "hashicorp/random"
     }
   }
-}
-provider "aws" {
-  region = "ap-south-1"
+
+  cloud {
++   organization = "rajats"
+
+    workspaces {
+      name = "gh-actions-demo"
+    }
+  }
 }
 /*
 module "ec2module" {
