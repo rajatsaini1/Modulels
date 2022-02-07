@@ -22,6 +22,8 @@ module "ec2module" {
   instance_type = var.instance_type
 }
 */
+
+
 module "mys3" {
     bucket     = var.bucket
     source     = ".//Modules/s3" 
