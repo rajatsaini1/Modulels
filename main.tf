@@ -3,7 +3,7 @@ terraform {
     organization = "shreet"
 
     workspaces {
-      name = "rajat-git-action"
+      name = "rajat-slack"
     }
   }
 }
