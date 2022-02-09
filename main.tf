@@ -10,8 +10,7 @@ terraform {
 
   cloud {
   organization = "rajats"
-
-    workspaces {
+   workspaces {
       name = "gh-actions-demo"
     }
   }
