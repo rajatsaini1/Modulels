@@ -1,17 +1,9 @@
 terraform {
-  required_providers {
-    aws = {
-      source = "hashicorp/aws"
-    }
-    random = {
-      source = "hashicorp/random"
-    }
-  }
-
   cloud {
-  organization = "rajats"
-   workspaces {
-      name = "gh-actions-demo"
+    organization = "shreet"
+
+    workspaces {
+      name = "rajat-git-action"
     }
   }
 }
