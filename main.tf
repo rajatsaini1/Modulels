@@ -11,8 +11,6 @@ terraform {
 module "ec2module" {
  source = ".//Modules/EC2" 
 }
-
-
   
 /*
 module "mys3" {
