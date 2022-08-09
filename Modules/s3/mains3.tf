@@ -4,7 +4,6 @@ resource "aws_s3_bucket" "prod_website" {
     website {    
     index_document = "index.html"    
     error_document = "error.html"   
- 
   }
     tags = {
     Name        = var.name
